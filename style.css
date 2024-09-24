@@ -1,0 +1,404 @@
+* {
+    padding: 2.3px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* for nav bar */
+
+.logo img {
+    width: 172px;
+    height: 55px;
+}
+
+.body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 305px;
+}
+
+ul li {
+    list-style: none;
+    margin: 15px;
+    padding: 12px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.items ul {
+    display: flex;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* for Header */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.hero span {
+    font-size: 48px;
+}
+
+.hero span img {
+    margin: 0 23px;
+}
+
+.middle {
+    font-size: 24px;
+    width: 67vw;
+    text-align: center;
+}
+
+.hero .btn {
+    background: #00b6d1;
+    color: #00b6d1;
+    border: none;
+    padding: 13px 30px;
+    color: white;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+/* Header second part */
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: sans-serif;
+    margin-left: 170px;
+    margin-top: -15px;
+}
+
+.second img {
+    width: 116px;
+}
+
+.sec {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.flex span {
+    font-size: 87%;
+}
+
+/* Header third part */
+
+.third {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 25px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+header .language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    background: rgb(247, 243, 243);
+    width: 290px;
+    height: 198px;
+    border-radius: 7px;
+}
+
+.item-lang {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.lan {
+    font-size: 11px;
+    padding: 5px 0 20px;
+}
+
+.btn {
+    color: white;
+    background: #5cb85c;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 7px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.sha {
+    font-size: 10px;
+    padding: 18px 0 5px;
+}
+
+.code {
+    font-size: 7px;
+    margin: 0 15px;
+}
+
+.code2 {
+    font-size: 7px;
+    padding: 5px 0 15px;
+}
+
+
+
+/* first footer */
+
+.first{
+    /* border: 2px solid black; */
+    background-color: #222222!important;
+    height: 725px;
+    width: 100%;
+    margin-left: -5px;
+    margin-top: 60px;
+    padding-right: 7px;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    height: 200px;
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    justify-content: center;
+    gap: 76px;
+    margin-top: 30px;
+}
+
+.content1{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 430px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 120px;
+}
+.join{
+    font-size:24px ;
+}
+.sp{
+    font-size: 15px;
+}
+.content2{
+    border: 10px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: 310px;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom-width: 20px;
+}
+.enter{
+    font-size: 13px;
+    margin-bottom: -18px;
+}
+
+.fill{
+    width: 265px;
+    height: 40px;
+}
+.subscribe{
+    font-size: 24px;
+    color: #00b6d1 !important;
+}
+.btn2{
+    color: white;
+    background: #00b6d1;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 7px;
+    font-weight: 800;
+    cursor: pointer;
+    width: 235px;
+    padding-left: 15px;
+    padding-right: 25px;
+    margin-left: 10px;
+    text-align: center;
+}
+.content3{
+    margin-top: 170px;
+    color: white;
+    margin-left: 245px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.a{
+    font-size: 23px;
+}
+.b{
+    font-size: 15px;
+}
+.c{
+    font-size: 15px;
+    text-decoration: none;
+}
+.d{
+    font-size: 23px;
+}
+.e{
+    font-size: 15px;
+    margin-right: 200px;
+}
+.last{
+    text-decoration: none;
+    color: #00b6d1;
+}
+
+/* Responsive Design */
+
+/* For large tablets and small desktops (max-width: 945px) */
+@media screen and (max-width: 945px) {
+    .body {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .third {
+        grid-template-columns: repeat(2, 300px);
+    }
+
+    .hero span {
+        font-size: 40px;
+    }
+
+    .middle {
+        font-size: 20px;
+    }
+
+    .flex {
+        margin-left: 0;
+        justify-content: center;
+    }
+}
+
+/* For small tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .body {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .third {
+        grid-template-columns: 300px;
+        justify-content: center;
+    }
+
+    .hero {
+        margin: 40px 20px;
+    }
+
+    .hero span {
+        font-size: 36px;
+    }
+
+    .middle {
+        font-size: 18px;
+        width: 80vw;
+    }
+
+    .flex {
+        margin-left: 0;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .second img {
+        width: 80px;
+    }
+
+    .sec {
+        font-size: 20px;
+    }
+}
+
+/* For mobile devices (max-width: 550px) */
+@media screen and (max-width: 550px) {
+    .body {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .items ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    ul li {
+        margin: 8px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .hero span {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .middle {
+        font-size: 16px;
+        width: 90vw;
+    }
+
+    .hero .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .flex {
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second img {
+        width: 60px;
+    }
+
+    .sec {
+        font-size: 18px;
+    }
+
+    .third {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    header .language {
+        width: 80vw;
+    }
+}
